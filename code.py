@@ -17,7 +17,7 @@ def main():
     title_container1 = st.container()
     col1, col2 ,  = st.columns([6,12])
     from PIL import Image
-    image = Image.open('static/asia.jpeg')
+    image = Image.open('static/as.jpeg')
     with title_container1:
         with col1:
             st.image(image, width=200)
